@@ -1,7 +1,7 @@
 ---
 layout: project
 type: project
-image: img/micromouse/micromouse-square.jpg
+image: img/kapolei_khs-logo_thumb-400x319.png
 title: "Discord Score Tracker"
 date: 2018
 published: true
