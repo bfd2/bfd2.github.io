@@ -9,13 +9,13 @@
   --tf-blue1: #f4bd77;
   --tf-blue2: #fbed6d;
   --tf-blue3: #e89b00;
-  --tf-blue4: #fef7bb;
+  --tf-blue4: #fcf081;
   --bs-font-sans-serif: "Open Sans", sans-serif;
   --bs-link-color: var(--tf-blue1);
   --tf-pill-bg: var(--tf-blue3);
   --tf-icon-fill: var(--tf-blue1);
   --tf-icon-hover: var(--tf-blue3);
-  --tf-page-bg-color: var(--bs-dark);
+  --tf-page-bg-color: var(--bs-white);
   --tf-footer-bg-color: var(--tf-blue4);
   --tf-projects-bg-color: var(--tf-blue4);
 }
