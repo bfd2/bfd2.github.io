@@ -4,7 +4,7 @@ type: essay
 title: "The Cyber Crossroads"
 # All dates must be YYYY-MM-DD format!
 date: 2023-08-31
-published: true
+published: false
 labels:
   - Cyber Security
   - Software Engineering
