@@ -4,7 +4,7 @@ type: project
 image: img/script-img/ubu_icon.jpg
 title: "Security Scripts"
 date: 2019
-published: true
+published: false
 labels:
   - Shell
   - VSB
