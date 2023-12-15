@@ -14,7 +14,7 @@ summary: "A website used to find clubs on the UH Manoa Campus."
 ---
 
 <div class="text-center p-4">
-  <img width="500px" src="https://finduhclub.github.io/images/landing-page.png" >
+  <img width="750px" src="https://finduhclub.github.io/images/landing-page.png" >
 </div>
 
 ## Finding uh Club
@@ -24,13 +24,13 @@ For our final project for my ICS 314 class, we had to create a group project usi
 I helped with the mockups of the main components of the page like adding a club, managing a club, seeing the list of clubs in the database, and the club display itself. I also help create the filter button, allowing the user to filter by category and shows the list of clubs in that category. I also helped manage the project by setting up milestones and tasks so that my group members can split up and work efficiently to get to the milestone quickly and efficiently.
 
 <div class="text-center p-4">
-  <img width="250px" src="https://finduhclub.github.io/images/mockup-manage-clubs.png" >
+  <img width="600px" src="https://finduhclub.github.io/images/mockup-manage-clubs.png" >
 </div>
 <div class="text-center p-4">
-  <img width="250px" src="https://finduhclub.github.io/images/mockup-search-clubs-page.png" >
+  <img width="600px" src="https://finduhclub.github.io/images/mockup-search-clubs-page.png" >
 </div>
 <div class="text-center p-4">
-  <img width="250px" src="https://finduhclub.github.io/images/mockup-club-view.png" >
+  <img width="600px" src="https://finduhclub.github.io/images/mockup-club-view.png" >
 </div>
 
 ## What I learned
