@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="title" content="Standardized Coding | Brayden Danielson | Professional Portfolio">
+    <meta name="description" content="">
+    <meta name="image" content="https://github.com/bfd2.png">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Brayden Danielson | Professional Portfolio">
+    <meta property="og:url" content="https://bfd2.github.io/essays/standard-code.html">
+    <meta property="og:title" content="Standardized Coding | Brayden Danielson | Professional Portfolio">
+    <meta property="og:description" content="">
+    <meta property="og:image" content="https://github.com/bfd2.png">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/techfolio-theme/sunshine.css">
+    <link rel="stylesheet" type="text/css" href="/css/rouge/github.css">
+    <!-- Load MathJax if 'mathjax: true' is found in your _config.yml. -->
+    
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/latest.js?config=TeX-MML-AM_CHTML">
+    </script>
+    
+
+    <title>Standardized Coding | Brayden Danielson | Professional Portfolio</title>
+  </head>
+  <body>
+  <header class="navbar navbar-expand navbar-light bg-light bg-gradient border-bottom">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Brayden Danielson</a>
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <a class="nav-link" href="/#projects">Projects</a>
+        <a class="nav-link" href="/#essays">Essays</a>
+        <a class="nav-link" href="/resume.html">Resume</a>
+      </ul>
+    </div>
+  </div>
+</header>
+
+<div class="container py-4">
+  <h1 class="display-4">Standardized Coding</h1>
+  <span class="date">21 Sep 2023</span>
+  <hr>
+  <p><img src="https://cdn.sketchbubble.com/pub/media/catalog/product/optimized1/4/1/4157b6f345d365b0b5318f39e3d102a183dd0c0c53237441e99e7221b3a914fb/coding-best-practices-mc-slide3.png" alt="" /></p>
+<h2 id="the-standards-of-coding">The Standards of Coding</h2>
+
+<hr />
+
+<p>Coding standards is a big topic and there are a lot of different standards that people abide by in the Computer Science industry. Personally, coding standards are a good thing since they can help code readability and make code a lot more better. But the standards need to make sense and actually be useful to other people. One of the worst standards that I have to follow for one of my computer science classes is using constants for everything, meaning that if you wanted to change a value of a variable, you’d have to create another constant variable and then manipulate the value of the variable that you want to change. It frustrated me a lot and I learned nothing of value from that class.</p>
+
+<h2 id="a-good-standard">A Good Standard</h2>
+
+<hr />
+<p>Good standards help create good habits which translates into good coding. One of the most helpful standards I learned is putting your curly brackets on new lines. I know for some people it is a waste of space but it is very useful if you are writing functions that contain a lot of nested loops that can be confusing to dissect if they are all cramped into one line of code. Would you rather read this:</p>
+<pre><code class="language-angular2html">while(this != true){if(p == 1){return 0;}else if(p == 2){for (int i = 0; i &lt; a.length; i++){ j = j + 2 }}else {break;}
+</code></pre>
+<p>or this:</p>
+<pre><code class="language-angular2html">while (this != true)
+{
+    if (p == 1)
+    {
+        return 0;
+    }
+    else if (p == 2)
+    {
+        for (int i = 0; i &lt; a.length; i++)
+        { 
+            j = j + 2 
+        }
+    }
+    else 
+    {
+        break;
+    }
+}
+</code></pre>
+
+<p>It is more helpful to see the structure and scope of the code if it is more spaced out (although it may look ugly and daunting to some people.) But there’s so much room for the code to breathe and makes it easy on your eyes instead of the claustrophobic and dense feeling that you get from a somewhat obfuscated one-liner. I rather take the readability of the code than the convince of having it crammed into one line for simplicity and “just cause it’s cool.”</p>
+
+<h2 id="documentation">Documentation</h2>
+
+<hr />
+<p>Above all, I think the most important coding standard that everyone should follow is documenting and commenting on your code. I think this should be a universal rule if it isn’t already. If you don’t document your code, then you’re either evil or just like being confused. You want everyone, include yourself, to know what the code does and what everything does down to the tee. You want even someone from 100 years in the future to know what your code does instead of them wasting time testing and debugging what your code does. But the best tip is to make sure your comments make sense. Don’t do this:</p>
+<pre><code class="language-angular2html">// adds to array
+function c (a[], int b) {...}
+</code></pre>
+<p>Be more detailed. Explain and make it concise.</p>
+<pre><code class="language-angular2html">// appends integer b to the array a. Returns the array a.
+function c (a[], int b) {...}
+</code></pre>
+<p>It’s a simple trick that can go a long way. It’s also the reason why open source programming is one of the best parts of programming since it allows anyone to edit the code and make the project a lot better than if it were only done by a secluded group of individuals. Then again, I could’ve name my function appendToArray to make it more obvious.</p>
+
+<p>If you don’t document your code, then what’s the point of coding in the first place?</p>
+
+<h2 id="lint-and-rollers">Lint and Rollers</h2>
+
+<hr />
+<p>Some people may find coding analysis tools like ESLint useless because it forces you to conform to a standard that can be annoying to deal with.</p>
+
+<p>But think about this.</p>
+
+<p>Imagine a team of 10 people, all with varying coding styles that have their own way of naming conventions, variable declarations, documenting, and how they structure their code. It would be very annoying to try and figure out whose code does what, pinging them on Discord late at night to ask what their functions do, and trying to debug it because another person’s functions messes with their functions, and so on.</p>
+
+<p>But now that we have one standard from ESLint, everyone’s code is the same structure and conventions, which saves time on reading and debugging. It also catches unused variables and console logs that you might not catch because you slept 2 hours in the past week. You can also config ESLint to your liking but personally leaving it on the default settings is good enough since almost everyone knows what the standard is.</p>
+
+<p><img src="https://eslint.org/assets/images/eslint-features-img-600w.jpeg" alt="drawing" width="600" /></p>
+
+<p>(I mean, look how beautiful this code looks, beside the error squiggly of the Collection. I just took this from the official ESLint project site.)</p>
+
+<h2 id="no-stake-in-courtesy">No Stake in Courtesy</h2>
+
+<hr />
+<p>Finally, the best standard that I think everyone should follow while coding is using common sense. Always ask yourself: “Can a 9 year old kid know what my code is doing just from reading it?” If not, start commenting and making it more concise and readable. Unless you’re creating code for a CTF competition and obfuscating JavaScript and assembly, the more readable the code, the more eyes that can help and improve your code. The best things in life are always short and sweet. Good code creates good habits, which can lead to a greater lifestyle. Use good standards like AirBNB and your code will look amazing.</p>
+
+</div>
+
+<footer class="navbar navbar-expand navbar-light bg-light bg-gradient border-top">
+  <div class="container-fluid">
+    <div class="ms-auto">
+      <ul class="navbar-nav mb-2 mb-lg-0">
+        <small><a class="nav-link" href="https://techfolios.github.io">Made with Techfolios</a></small>
+      </ul>
+    </div>
+  </div>
+</footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
+</html>
